@@ -1,0 +1,423 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.header{
+    background-color: #191919;
+}
+
+.container{
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 1150px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    padding: 19px;
+}
+
+.header_logo{
+    margin-right: auto;
+    color: #ffffff;
+}
+
+.header_list{
+    display: flex;
+    list-style: none;
+}
+
+.list_item:not(:last-child){
+    margin-right: 40px;
+}
+
+.list_link{
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .3s linear;
+    font-size: 18px;
+}
+
+.list_link:hover{
+    color: #118DA8;
+}
+
+/* Hero */
+
+.section_hero{
+    padding-top: 40px;
+    background-color: #191919;
+}
+
+.hero_container{
+    display: flex;
+}
+
+.hero_logo{
+    width: 50%;
+    border-radius: 12px;
+    margin-right: 60px;
+}
+
+.hero_right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+
+.hero_merit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.merit_description{
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.merit_next{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 70px;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 65%;
+    font-size: 75px;
+}
+
+.next_svg{
+    position: absolute;
+}
+
+.level{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.listen{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.musics_item{
+    margin-top: 16px;
+}
+
+.musics_item:not(:last-child){
+    margin-right: 17px;
+}
+
+/* Episode */
+
+.section_episode{
+    background-color: #191919;
+    padding-top: 93px;
+}
+
+.episode_container{
+    padding-bottom: 160px;
+}
+
+.episode_top{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.episode_heading{
+    margin: 0;
+    color: #ffffff;
+    font-size: 64px;
+    position: absolute;
+}
+
+.episode_button{
+    position: absolute;
+    right: 0;
+    color: #ffffff;
+    background-color: #118DA8;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 6px;
+}
+
+.tab{
+    padding: 40px;
+    background-color: #000000;
+    display: flex;
+    border-radius: 32px;
+}
+
+.tabs:not(:last-child){
+    margin-bottom: 60px;
+}
+
+.tab_img{
+    width: 33%;
+    margin-right: 50px;
+}
+
+.tab_right{
+    color: #ffffff;
+}
+
+.gear{
+    font-size: 18px;
+    background-color: #191919;
+    width: 70px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.tips{
+    font-size: 18px;
+    background-color: #191919;
+    width: 150px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.tab_episode{
+    margin-bottom: 17px;
+}
+
+.tab_link{
+    text-decoration: none;
+    color: #118DA8;
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+.tab_heading{
+    font-size: 58px;
+    margin-bottom: 28px;
+}
+
+.tab_description{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.tab_button{
+    background-color: #118DA8;
+    font-size: 18px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* About Jacob */
+
+.section_about-jacob{
+    background-color: #191919;
+}
+
+.jacob_container{
+    padding: 100px 0;
+}
+
+.top_jacob{
+    display: flex;
+    padding: 100px 0;
+}
+
+.about-jacob_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    color: #ffffff;
+    margin-right: 60px;
+}
+
+.arrow_circle{
+    height: 100px;
+    width: 100px;
+    background-color: #118DA8;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.arrow{
+    width: 38px;
+    height: 71px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.left_link{
+    color: #118DA8;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.jacob{
+    font-size: 65px;
+    margin-bottom: 28px;
+}
+
+.jacob_info{
+    opacity: .7;
+    font-size: 22px;
+}
+
+.jacob_info:not(:last-child){
+    margin-bottom: 33px;
+}
+
+.jacob_img{
+    width: 50%;
+    border-radius: 12px;
+}
+
+.section_form{
+    padding: 100px 0;
+}
+
+.big_form{
+    display: flex;
+    padding: 60px;
+    background-color: #000000;
+    border-radius: 32px;
+}
+
+.for_form{
+    width: 50%;
+}
+
+.form_email{
+    color: #118DA8;
+    font-size: 18px;
+}
+
+.form_sub{
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.input{
+    background-color: #191919;
+    font-size: 19px;
+    padding: 26px 19px;
+    margin-bottom: 20px;
+    border: 1px solid #191919;
+}
+
+.form_button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #118DA8;
+    color: #ffffff;
+    width: 88px;
+    height: 50px;
+    border: 1px solid #118DA8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Rating */
+
+.section_rating{
+    padding: 100px 0;
+    background-color: #191919;
+}
+
+.rating_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rating_tab{
+    background-color: #000000;
+    color: #ffffff;
+    flex: 23% 0 0;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    padding: 50px;
+    border-radius: 32px;
+}
+
+.rating_stars{
+    margin-bottom: 21px;
+}
+
+.rating_review{
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.rating_writer{
+    font-size: 24px;
+    opacity: .7;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #191919;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.footer_container{
+    display: flex;
+}
+
+.footer_left{
+    width: 440px;
+}
+
+.footer_logo{
+    margin-bottom: 20px;
+}
+
+.svg_social-icon:not(:last-child){
+    margin-right: 15px;
+}
+
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: 170px;
+}
+
+.footer_list:not(:last-child){
+    margin-right: 15px;
+}
+
+.footer_item:not(:last-child){
+    margin-bottom: 10px;
+}
